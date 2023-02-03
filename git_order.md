@@ -48,3 +48,13 @@ eg: $ git pull origin master
 ```
 
 git log 查看是否更新
+
+##### 删除远端仓库文件
+
+```
+$ rm test.txt(文件名)
+$ git add test.txt
+$ git commit -m ""
+$ git push //更新一下就删掉了
+```
+
